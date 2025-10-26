@@ -95,6 +95,312 @@
       "kruskalExecutionTimeMs": 0,
       "primOperations": 11,
       "kruskalOperations": 34
+    },
+    {
+      "graph_id": 3,
+      "prim": [
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 5
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 7
+        },
+        {
+          "from": "C",
+          "to": "D",
+          "weight": 3
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "weight": 4
+        },
+        {
+          "from": "E",
+          "to": "F",
+          "weight": 2
+        },
+        {
+          "from": "E",
+          "to": "G",
+          "weight": 8
+        },
+        {
+          "from": "D",
+          "to": "H",
+          "weight": 9
+        },
+        {
+          "from": "H",
+          "to": "I",
+          "weight": 3
+        },
+        {
+          "from": "I",
+          "to": "J",
+          "weight": 4
+        }
+      ],
+      "kruskal": [
+        {
+          "from": "E",
+          "to": "F",
+          "weight": 2
+        },
+        {
+          "from": "C",
+          "to": "D",
+          "weight": 3
+        },
+        {
+          "from": "H",
+          "to": "I",
+          "weight": 3
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "weight": 4
+        },
+        {
+          "from": "I",
+          "to": "J",
+          "weight": 4
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 5
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 7
+        },
+        {
+          "from": "E",
+          "to": "G",
+          "weight": 8
+        },
+        {
+          "from": "D",
+          "to": "H",
+          "weight": 9
+        }
+      ],
+      "primTotalCost": 45,
+      "kruskalTotalCost": 45,
+      "primExecutionTimeMs": 0,
+      "kruskalExecutionTimeMs": 0,
+      "primOperations": 34,
+      "kruskalOperations": 109
+    },
+    {
+      "graph_id": 4,
+      "prim": [
+        {
+          "from": "A",
+          "to": "C",
+          "weight": 3
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 6
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 5
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "weight": 7
+        },
+        {
+          "from": "F",
+          "to": "H",
+          "weight": 2
+        },
+        {
+          "from": "H",
+          "to": "M",
+          "weight": 5
+        },
+        {
+          "from": "M",
+          "to": "O",
+          "weight": 4
+        },
+        {
+          "from": "O",
+          "to": "T",
+          "weight": 4
+        },
+        {
+          "from": "K",
+          "to": "M",
+          "weight": 6
+        },
+        {
+          "from": "K",
+          "to": "P",
+          "weight": 3
+        },
+        {
+          "from": "P",
+          "to": "R",
+          "weight": 2
+        },
+        {
+          "from": "J",
+          "to": "O",
+          "weight": 7
+        },
+        {
+          "from": "J",
+          "to": "L",
+          "weight": 3
+        },
+        {
+          "from": "L",
+          "to": "N",
+          "weight": 5
+        },
+        {
+          "from": "N",
+          "to": "S",
+          "weight": 6
+        },
+        {
+          "from": "O",
+          "to": "Q",
+          "weight": 7
+        },
+        {
+          "from": "G",
+          "to": "L",
+          "weight": 9
+        },
+        {
+          "from": "E",
+          "to": "G",
+          "weight": 4
+        },
+        {
+          "from": "G",
+          "to": "I",
+          "weight": 8
+        }
+      ],
+      "kruskal": [
+        {
+          "from": "F",
+          "to": "H",
+          "weight": 2
+        },
+        {
+          "from": "P",
+          "to": "R",
+          "weight": 2
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "weight": 3
+        },
+        {
+          "from": "J",
+          "to": "L",
+          "weight": 3
+        },
+        {
+          "from": "K",
+          "to": "P",
+          "weight": 3
+        },
+        {
+          "from": "E",
+          "to": "G",
+          "weight": 4
+        },
+        {
+          "from": "M",
+          "to": "O",
+          "weight": 4
+        },
+        {
+          "from": "O",
+          "to": "T",
+          "weight": 4
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 5
+        },
+        {
+          "from": "L",
+          "to": "N",
+          "weight": 5
+        },
+        {
+          "from": "H",
+          "to": "M",
+          "weight": 5
+        },
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 6
+        },
+        {
+          "from": "K",
+          "to": "M",
+          "weight": 6
+        },
+        {
+          "from": "N",
+          "to": "S",
+          "weight": 6
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "weight": 7
+        },
+        {
+          "from": "O",
+          "to": "Q",
+          "weight": 7
+        },
+        {
+          "from": "J",
+          "to": "O",
+          "weight": 7
+        },
+        {
+          "from": "G",
+          "to": "I",
+          "weight": 8
+        },
+        {
+          "from": "C",
+          "to": "E",
+          "weight": 9
+        }
+      ],
+      "primTotalCost": 96,
+      "kruskalTotalCost": 96,
+      "primExecutionTimeMs": 0,
+      "kruskalExecutionTimeMs": 0,
+      "primOperations": 73,
+      "kruskalOperations": 279
     }
   ]
 }
